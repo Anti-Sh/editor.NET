@@ -41,6 +41,7 @@
             this.field = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.result3 = new System.Windows.Forms.Panel();
+            this.dateOut = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.queryPanel3 = new System.Windows.Forms.Panel();
             this.date = new System.Windows.Forms.DateTimePicker();
@@ -57,7 +58,6 @@
             this.result2 = new System.Windows.Forms.Panel();
             this.resultOutput2 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.dateOut = new System.Windows.Forms.TextBox();
             this.queryPanel1.SuspendLayout();
             this.queryPanel2.SuspendLayout();
             this.result3.SuspendLayout();
@@ -176,6 +176,14 @@
             this.result3.Size = new System.Drawing.Size(266, 43);
             this.result3.TabIndex = 8;
             this.result3.Visible = false;
+            // 
+            // dateOut
+            // 
+            this.dateOut.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dateOut.Location = new System.Drawing.Point(160, 5);
+            this.dateOut.Name = "dateOut";
+            this.dateOut.Size = new System.Drawing.Size(103, 31);
+            this.dateOut.TabIndex = 2;
             // 
             // label7
             // 
@@ -349,14 +357,6 @@
             this.label6.TabIndex = 0;
             this.label6.Text = "Количество:";
             // 
-            // dateOut
-            // 
-            this.dateOut.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dateOut.Location = new System.Drawing.Point(160, 5);
-            this.dateOut.Name = "dateOut";
-            this.dateOut.Size = new System.Drawing.Size(103, 31);
-            this.dateOut.TabIndex = 2;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -373,7 +373,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.query);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Редактор.РУ";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.queryPanel1.ResumeLayout(false);
             this.queryPanel1.PerformLayout();
